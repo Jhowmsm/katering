@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  /* Color Palette */
-  --color-primary-text: #333333; /* Dark Gray for text */
-  --color-accent: #BDB76B; /* Gold/Khaki accent */
-  --color-background: #FFFFFF; /* White background */
-  --color-secondary: #666666; /* Logo Gray for secondary elements */
-  --color-light-gray: #F5F5F5; /* Light gray for borders/subtle backgrounds */
+  /* New Color Palette for Refined/Classy Style */
+  --color-primary-dark: #2C3E50; /* Deep Charcoal/Blue-Gray */
+  --color-secondary-light: #ECF0F1; /* Soft Warm Gray */
+  --color-accent-gold: #B8860B; /* Muted Gold/Bronze */
+  --color-background-white: #FFFFFF; /* Pure White */
+  --color-border-light: #E0E0E0; /* Very Light Gray for borders */
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-primary-text);
-  font-family: 'Montserrat', sans-serif; /* Using a common elegant font */
+  background-color: var(--color-background-white);
+  color: var(--color-primary-dark);
+  font-family: 'Lato', sans-serif; /* Elegant sans-serif for body */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Basic reset for elements */
-h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Elegant serif for headings */
+}
+
+p, ul, ol, li {
   margin: 0;
   padding: 0;
 }
